@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staypan | Official Micronation</title>
+  <style>
+    :root {
+      --navy: #10233f;
+      --gold: #d8b568;
+      --cream: #f7f3e9;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      color: var(--navy);
+      background: var(--cream);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+      text-align: center;
+      padding: 36px 18px 24px;
+      border-bottom: 4px solid var(--gold);
+    }
+
+    .emblem { font-size: 54px; }
+
+    header h1 {
+      margin: 0;
+      letter-spacing: 7px;
+      font-size: clamp(32px, 7vw, 54px);
+    }
+
+    header p { color: var(--gold); }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px 24px;
+      padding: 15px;
+      background: #172f50;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav a:hover { color: var(--gold); }
+
+    .hero {
+      text-align: center;
+      padding: 85px 20px;
+      background: linear-gradient(135deg, #10233f, #254c72);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: clamp(34px, 6vw, 56px);
+      line-height: 1.15;
+      margin: 12px auto;
+      max-width: 750px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 20px auto 30px;
+      color: #e7eaf0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 5px;
+      background: var(--gold);
+      color: var(--navy);
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+
+    .button.outline {
+      background: transparent;
+      color: white;
+      border: 1px solid var(--gold);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 25px 20px 60px;
+    }
+
+    section { padding: 35px 0; }
+
+    h2.section-title {
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .rule {
+      width: 65px;
+      height: 3px;
+      margin: 0 auto 25px;
+      background: var(--gold);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 24px;
+      background: white;
+      border: 1px solid #e3dac8;
+      border-radius: 5px;
+    }
+
+    .card h3 { margin-top: 0; }
+
+    .symbol {
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .constitution {
+      padding: 28px;
+      background: #eee7d8;
+      border-left: 4px solid var(--gold);
+    }
+
+    .notice {
+      font-size: 13px;
+      color: #586272;
+    }
+
+    footer {
+      background: var(--navy);
+      color: white;
+      text-align: center;
+      padding: 28px 18px;
+    }
+
+    footer p { margin: 5px; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="emblem">⚜</div>
+    <h1>STAYPAN</h1>
+    <p>A MICRONATION · PENNSYLVANIA, USA</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#government">Government</a>
+    <a href="#constitution">Constitution</a>
+    <a href="#citizenship">Citizenship</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <p>WELCOME TO STAYPAN</p>
+    <h2>A Nation of Identity, Community and Tradition</h2>
+    <p>
+      A self-declared micronation dedicated to building its own
+      traditions, civic identity and institutions while respecting
+      the laws of the United States and Pennsylvania.
+    </p>
+    <a class="button" href="#about">Discover Staypan</a>
+    <a class="button outline" href="#constitution">Read Our Principles</a>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2 class="section-title">About Our Micronation</h2>
+      <div class="rule"></div>
+      <p>
+        Staypan is a privately organized micronation project based
+        in Pennsylvania. It celebrates the ideas of citizenship,
+        self-governance, history and national identity through
+        voluntary participation and shared traditions.
+      </p>
+      <p>
+        Staypan does not claim independent sovereign status.
+        Its activities remain subject to applicable United States
+        and Pennsylvania law.
+      </p>
+    </section>
+
+    <section id="government">
+      <h2 class="section-title">The Government</h2>
+      <div class="rule"></div>
+      <div class="grid">
+        <div class="card">
+          <div class="symbol">👑</div>
+          <h3>Head of State</h3>
+          <p>
+            The founder serves as Staypan's initial ceremonial
+            leader and oversees its development.
+          </p>
+        </div>
+        <div class="card">
+          <div class="symbol">📜</div>
+          <h3>National Constitution</h3>
+          <p>
+            A founding document setting out the micronation's
+            principles, leadership and internal rules.
+          </p>
+        </div>
+        <div class="card">
+          <div class="symbol">🏛️</div>
+          <h3>National Administration</h3>
+          <p>
+            The administration maintains records, traditions,
+            national symbols and future civic projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="constitution">
+      <h2 class="section-title">Founding Principles</h2>
+      <div class="rule"></div>
+      <div class="constitution">
+        <h3>The Founding Declaration of Staypan</h3>
+        <p><strong>Article I — Identity</strong><br>
+          Staypan is a voluntary micronation project established
+          to create a distinct civic and cultural identity.</p>
+        <p><strong>Article II — Law</strong><br>
+          All participants remain subject to applicable United
+          States, Pennsylvania and local laws.</p>
+        <p><strong>Article III — Leadership</strong><br>
+          Staypan may establish its own internal offices,
+          customs, ceremonies and governance rules.</p>
+        <p><strong>Article IV — Rights</strong><br>
+          Participation is voluntary. No Staypan rule overrides
+          the legal rights or obligations of any person.</p>
+        <p><strong>Article V — Peaceful Purpose</strong><br>
+          Staypan pursues its activities peacefully and respects
+          the rights of others.</p>
+        <p class="notice">
+          This is a proposed founding charter, not a government-issued
+          constitution or a legally recognized sovereign instrument.
+        </p>
+      </div>
+    </section>
+
+    <section id="citizenship">
+      <h2 class="section-title">Citizenship of Staypan</h2>
+      <div class="rule"></div>
+      <div class="card">
+        <h3>Become Part of the Project</h3>
+        <p>
+          Staypan may offer voluntary honorary citizenship,
+          membership certificates and a register of participants.
+        </p>
+        <p>
+          Such citizenship is symbolic and does not grant
+          nationality, a passport, immigration status or special
+          legal privileges.
+        </p>
+        <a class="button" href="mailto:staypan@example.com?subject=Staypan%20Membership">
+          Contact Staypan
+        </a>
+        <p class="notice">
+          Replace the example email address with an address you control.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>STAYPAN</strong></p>
+    <p>A Micronation Project in Pennsylvania, United States</p>
+    <p class="notice">
+      A voluntary civic and cultural project, subject to applicable law.
+    </p>
+    <p>© 2026 Staypan · Official Website</p>
+  </footer>
+</body>
+</html>
